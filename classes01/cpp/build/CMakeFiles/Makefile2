@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4F
 CMAKE_BINARY_DIR = /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/thresholding.dir
+
+# All Build rule for target.
+CMakeFiles/thresholding.dir/all:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/depend
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=11,12 "Built target thresholding"
+.PHONY : CMakeFiles/thresholding.dir/all
+
+# Include target in all.
+all: CMakeFiles/thresholding.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/thresholding.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thresholding.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/thresholding.dir/rule
+
+# Convenience name for target.
+thresholding: CMakeFiles/thresholding.dir/rule
+
+.PHONY : thresholding
+
+# clean rule for target.
+CMakeFiles/thresholding.dir/clean:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/clean
+.PHONY : CMakeFiles/thresholding.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/thresholding.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/writeVideo.dir
 
 # All Build rule for target.
 CMakeFiles/writeVideo.dir/all:
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/depend
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=11,12 "Built target writeVideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=13,14 "Built target writeVideo"
 .PHONY : CMakeFiles/writeVideo.dir/all
 
 # Include target in all.

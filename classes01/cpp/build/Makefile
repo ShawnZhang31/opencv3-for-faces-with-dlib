@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named thresholding
+
+# Build rule for target.
+thresholding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thresholding
+.PHONY : thresholding
+
+# fast build rule for target.
+thresholding/fast:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/build
+.PHONY : thresholding/fast
+
+#=============================================================================
 # Target rules for targets named writeVideo
 
 # Build rule for target.
@@ -323,6 +336,33 @@ readWriteDisplay.cpp.s:
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/readWriteDisplay.cpp.s
 .PHONY : readWriteDisplay.cpp.s
 
+thresholding.o: thresholding.cpp.o
+
+.PHONY : thresholding.o
+
+# target to build an object file
+thresholding.cpp.o:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/thresholding.cpp.o
+.PHONY : thresholding.cpp.o
+
+thresholding.i: thresholding.cpp.i
+
+.PHONY : thresholding.i
+
+# target to preprocess a source file
+thresholding.cpp.i:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/thresholding.cpp.i
+.PHONY : thresholding.cpp.i
+
+thresholding.s: thresholding.cpp.s
+
+.PHONY : thresholding.s
+
+# target to generate assembly for a file
+thresholding.cpp.s:
+	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/thresholding.cpp.s
+.PHONY : thresholding.cpp.s
+
 writeVideo.o: writeVideo.cpp.o
 
 .PHONY : writeVideo.o
@@ -357,6 +397,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... thresholding"
 	@echo "... writeVideo"
 	@echo "... cropAndResize"
 	@echo "... datatypeConversion"
@@ -379,6 +420,9 @@ help:
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
+	@echo "... thresholding.o"
+	@echo "... thresholding.i"
+	@echo "... thresholding.s"
 	@echo "... writeVideo.o"
 	@echo "... writeVideo.i"
 	@echo "... writeVideo.s"
