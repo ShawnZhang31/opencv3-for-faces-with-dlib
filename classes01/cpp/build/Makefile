@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named writeVideo
+
+# Build rule for target.
+writeVideo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 writeVideo
+.PHONY : writeVideo
+
+# fast build rule for target.
+writeVideo/fast:
+	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/build
+.PHONY : writeVideo/fast
+
+#=============================================================================
 # Target rules for targets named cropAndResize
 
 # Build rule for target.
@@ -310,6 +323,33 @@ readWriteDisplay.cpp.s:
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/readWriteDisplay.cpp.s
 .PHONY : readWriteDisplay.cpp.s
 
+writeVideo.o: writeVideo.cpp.o
+
+.PHONY : writeVideo.o
+
+# target to build an object file
+writeVideo.cpp.o:
+	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/writeVideo.cpp.o
+.PHONY : writeVideo.cpp.o
+
+writeVideo.i: writeVideo.cpp.i
+
+.PHONY : writeVideo.i
+
+# target to preprocess a source file
+writeVideo.cpp.i:
+	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/writeVideo.cpp.i
+.PHONY : writeVideo.cpp.i
+
+writeVideo.s: writeVideo.cpp.s
+
+.PHONY : writeVideo.s
+
+# target to generate assembly for a file
+writeVideo.cpp.s:
+	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/writeVideo.cpp.s
+.PHONY : writeVideo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -317,6 +357,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... writeVideo"
 	@echo "... cropAndResize"
 	@echo "... datatypeConversion"
 	@echo "... imageDraw"
@@ -338,6 +379,9 @@ help:
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
+	@echo "... writeVideo.o"
+	@echo "... writeVideo.i"
+	@echo "... writeVideo.s"
 .PHONY : help
 
 
