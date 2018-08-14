@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named imageDraw
+
+# Build rule for target.
+imageDraw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imageDraw
+.PHONY : imageDraw
+
+# fast build rule for target.
+imageDraw/fast:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/build
+.PHONY : imageDraw/fast
+
+#=============================================================================
 # Target rules for targets named datatypeConversion
 
 # Build rule for target.
@@ -203,6 +216,33 @@ datatypeConversion.cpp.s:
 	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/datatypeConversion.cpp.s
 .PHONY : datatypeConversion.cpp.s
 
+imageDraw.o: imageDraw.cpp.o
+
+.PHONY : imageDraw.o
+
+# target to build an object file
+imageDraw.cpp.o:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/imageDraw.cpp.o
+.PHONY : imageDraw.cpp.o
+
+imageDraw.i: imageDraw.cpp.i
+
+.PHONY : imageDraw.i
+
+# target to preprocess a source file
+imageDraw.cpp.i:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/imageDraw.cpp.i
+.PHONY : imageDraw.cpp.i
+
+imageDraw.s: imageDraw.cpp.s
+
+.PHONY : imageDraw.s
+
+# target to generate assembly for a file
+imageDraw.cpp.s:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/imageDraw.cpp.s
+.PHONY : imageDraw.cpp.s
+
 readWriteDisplay.o: readWriteDisplay.cpp.o
 
 .PHONY : readWriteDisplay.o
@@ -238,6 +278,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... imageDraw"
 	@echo "... datatypeConversion"
 	@echo "... cropAndResize"
 	@echo "... readWriteDisplay"
@@ -247,6 +288,9 @@ help:
 	@echo "... datatypeConversion.o"
 	@echo "... datatypeConversion.i"
 	@echo "... datatypeConversion.s"
+	@echo "... imageDraw.o"
+	@echo "... imageDraw.i"
+	@echo "... imageDraw.s"
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
