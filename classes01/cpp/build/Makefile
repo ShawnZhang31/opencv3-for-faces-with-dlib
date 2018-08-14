@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cropAndResize
+
+# Build rule for target.
+cropAndResize: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cropAndResize
+.PHONY : cropAndResize
+
+# fast build rule for target.
+cropAndResize/fast:
+	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/build
+.PHONY : cropAndResize/fast
+
+#=============================================================================
 # Target rules for targets named readWriteDisplay
 
 # Build rule for target.
@@ -122,6 +135,33 @@ readWriteDisplay: cmake_check_build_system
 readWriteDisplay/fast:
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
 .PHONY : readWriteDisplay/fast
+
+cropAndResize.o: cropAndResize.cpp.o
+
+.PHONY : cropAndResize.o
+
+# target to build an object file
+cropAndResize.cpp.o:
+	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/cropAndResize.cpp.o
+.PHONY : cropAndResize.cpp.o
+
+cropAndResize.i: cropAndResize.cpp.i
+
+.PHONY : cropAndResize.i
+
+# target to preprocess a source file
+cropAndResize.cpp.i:
+	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/cropAndResize.cpp.i
+.PHONY : cropAndResize.cpp.i
+
+cropAndResize.s: cropAndResize.cpp.s
+
+.PHONY : cropAndResize.s
+
+# target to generate assembly for a file
+cropAndResize.cpp.s:
+	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/cropAndResize.cpp.s
+.PHONY : cropAndResize.cpp.s
 
 readWriteDisplay.o: readWriteDisplay.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... cropAndResize"
 	@echo "... readWriteDisplay"
+	@echo "... cropAndResize.o"
+	@echo "... cropAndResize.i"
+	@echo "... cropAndResize.s"
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
