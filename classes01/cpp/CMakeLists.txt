@@ -34,4 +34,5 @@ ENDMACRO()
 
 add_example(readWriteDisplay)
 add_example(cropAndResize)
+add_example(datatypeConversion)
 

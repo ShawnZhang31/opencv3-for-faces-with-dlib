@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4F
 CMAKE_BINARY_DIR = /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/datatypeConversion.dir
+
+# All Build rule for target.
+CMakeFiles/datatypeConversion.dir/all:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/depend
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=3,4 "Built target datatypeConversion"
+.PHONY : CMakeFiles/datatypeConversion.dir/all
+
+# Include target in all.
+all: CMakeFiles/datatypeConversion.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/datatypeConversion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/datatypeConversion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/datatypeConversion.dir/rule
+
+# Convenience name for target.
+datatypeConversion: CMakeFiles/datatypeConversion.dir/rule
+
+.PHONY : datatypeConversion
+
+# clean rule for target.
+CMakeFiles/datatypeConversion.dir/clean:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/clean
+.PHONY : CMakeFiles/datatypeConversion.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/datatypeConversion.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cropAndResize.dir
 
 # All Build rule for target.
@@ -103,7 +140,7 @@ clean: CMakeFiles/cropAndResize.dir/clean
 CMakeFiles/readWriteDisplay.dir/all:
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/depend
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=3,4 "Built target readWriteDisplay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=5,6 "Built target readWriteDisplay"
 .PHONY : CMakeFiles/readWriteDisplay.dir/all
 
 # Include target in all.

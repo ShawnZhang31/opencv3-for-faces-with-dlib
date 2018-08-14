@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named datatypeConversion
+
+# Build rule for target.
+datatypeConversion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 datatypeConversion
+.PHONY : datatypeConversion
+
+# fast build rule for target.
+datatypeConversion/fast:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/build
+.PHONY : datatypeConversion/fast
+
+#=============================================================================
 # Target rules for targets named cropAndResize
 
 # Build rule for target.
@@ -163,6 +176,33 @@ cropAndResize.cpp.s:
 	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/cropAndResize.cpp.s
 .PHONY : cropAndResize.cpp.s
 
+datatypeConversion.o: datatypeConversion.cpp.o
+
+.PHONY : datatypeConversion.o
+
+# target to build an object file
+datatypeConversion.cpp.o:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/datatypeConversion.cpp.o
+.PHONY : datatypeConversion.cpp.o
+
+datatypeConversion.i: datatypeConversion.cpp.i
+
+.PHONY : datatypeConversion.i
+
+# target to preprocess a source file
+datatypeConversion.cpp.i:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/datatypeConversion.cpp.i
+.PHONY : datatypeConversion.cpp.i
+
+datatypeConversion.s: datatypeConversion.cpp.s
+
+.PHONY : datatypeConversion.s
+
+# target to generate assembly for a file
+datatypeConversion.cpp.s:
+	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/datatypeConversion.cpp.s
+.PHONY : datatypeConversion.cpp.s
+
 readWriteDisplay.o: readWriteDisplay.cpp.o
 
 .PHONY : readWriteDisplay.o
@@ -198,11 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... datatypeConversion"
 	@echo "... cropAndResize"
 	@echo "... readWriteDisplay"
 	@echo "... cropAndResize.o"
 	@echo "... cropAndResize.i"
 	@echo "... cropAndResize.s"
+	@echo "... datatypeConversion.o"
+	@echo "... datatypeConversion.i"
+	@echo "... datatypeConversion.s"
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
