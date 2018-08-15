@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named connectedComponentAnalysis
+
+# Build rule for target.
+connectedComponentAnalysis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connectedComponentAnalysis
+.PHONY : connectedComponentAnalysis
+
+# fast build rule for target.
+connectedComponentAnalysis/fast:
+	$(MAKE) -f CMakeFiles/connectedComponentAnalysis.dir/build.make CMakeFiles/connectedComponentAnalysis.dir/build
+.PHONY : connectedComponentAnalysis/fast
+
+#=============================================================================
 # Target rules for targets named erode
 
 # Build rule for target.
@@ -279,6 +292,33 @@ closing.s: closing.cpp.s
 closing.cpp.s:
 	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/closing.cpp.s
 .PHONY : closing.cpp.s
+
+connectedComponentAnalysis.o: connectedComponentAnalysis.cpp.o
+
+.PHONY : connectedComponentAnalysis.o
+
+# target to build an object file
+connectedComponentAnalysis.cpp.o:
+	$(MAKE) -f CMakeFiles/connectedComponentAnalysis.dir/build.make CMakeFiles/connectedComponentAnalysis.dir/connectedComponentAnalysis.cpp.o
+.PHONY : connectedComponentAnalysis.cpp.o
+
+connectedComponentAnalysis.i: connectedComponentAnalysis.cpp.i
+
+.PHONY : connectedComponentAnalysis.i
+
+# target to preprocess a source file
+connectedComponentAnalysis.cpp.i:
+	$(MAKE) -f CMakeFiles/connectedComponentAnalysis.dir/build.make CMakeFiles/connectedComponentAnalysis.dir/connectedComponentAnalysis.cpp.i
+.PHONY : connectedComponentAnalysis.cpp.i
+
+connectedComponentAnalysis.s: connectedComponentAnalysis.cpp.s
+
+.PHONY : connectedComponentAnalysis.s
+
+# target to generate assembly for a file
+connectedComponentAnalysis.cpp.s:
+	$(MAKE) -f CMakeFiles/connectedComponentAnalysis.dir/build.make CMakeFiles/connectedComponentAnalysis.dir/connectedComponentAnalysis.cpp.s
+.PHONY : connectedComponentAnalysis.cpp.s
 
 cropAndResize.o: cropAndResize.cpp.o
 
@@ -558,6 +598,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... connectedComponentAnalysis"
 	@echo "... erode"
 	@echo "... thresholding"
 	@echo "... closing"
@@ -572,6 +613,9 @@ help:
 	@echo "... closing.o"
 	@echo "... closing.i"
 	@echo "... closing.s"
+	@echo "... connectedComponentAnalysis.o"
+	@echo "... connectedComponentAnalysis.i"
+	@echo "... connectedComponentAnalysis.s"
 	@echo "... cropAndResize.o"
 	@echo "... cropAndResize.i"
 	@echo "... cropAndResize.s"
