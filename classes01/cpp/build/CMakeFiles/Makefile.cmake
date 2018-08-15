@@ -52,8 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/erode.dir/DependInfo.cmake"
   "CMakeFiles/thresholding.dir/DependInfo.cmake"
   "CMakeFiles/writeVideo.dir/DependInfo.cmake"
+  "CMakeFiles/dilate.dir/DependInfo.cmake"
   "CMakeFiles/cropAndResize.dir/DependInfo.cmake"
   "CMakeFiles/datatypeConversion.dir/DependInfo.cmake"
   "CMakeFiles/imageDraw.dir/DependInfo.cmake"

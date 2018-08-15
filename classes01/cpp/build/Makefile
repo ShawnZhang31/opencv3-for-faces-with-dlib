@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named erode
+
+# Build rule for target.
+erode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 erode
+.PHONY : erode
+
+# fast build rule for target.
+erode/fast:
+	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/build
+.PHONY : erode/fast
+
+#=============================================================================
 # Target rules for targets named thresholding
 
 # Build rule for target.
@@ -135,6 +148,19 @@ writeVideo: cmake_check_build_system
 writeVideo/fast:
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/build
 .PHONY : writeVideo/fast
+
+#=============================================================================
+# Target rules for targets named dilate
+
+# Build rule for target.
+dilate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dilate
+.PHONY : dilate
+
+# fast build rule for target.
+dilate/fast:
+	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/build
+.PHONY : dilate/fast
 
 #=============================================================================
 # Target rules for targets named cropAndResize
@@ -254,6 +280,60 @@ datatypeConversion.s: datatypeConversion.cpp.s
 datatypeConversion.cpp.s:
 	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/datatypeConversion.cpp.s
 .PHONY : datatypeConversion.cpp.s
+
+dilate.o: dilate.cpp.o
+
+.PHONY : dilate.o
+
+# target to build an object file
+dilate.cpp.o:
+	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/dilate.cpp.o
+.PHONY : dilate.cpp.o
+
+dilate.i: dilate.cpp.i
+
+.PHONY : dilate.i
+
+# target to preprocess a source file
+dilate.cpp.i:
+	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/dilate.cpp.i
+.PHONY : dilate.cpp.i
+
+dilate.s: dilate.cpp.s
+
+.PHONY : dilate.s
+
+# target to generate assembly for a file
+dilate.cpp.s:
+	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/dilate.cpp.s
+.PHONY : dilate.cpp.s
+
+erode.o: erode.cpp.o
+
+.PHONY : erode.o
+
+# target to build an object file
+erode.cpp.o:
+	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/erode.cpp.o
+.PHONY : erode.cpp.o
+
+erode.i: erode.cpp.i
+
+.PHONY : erode.i
+
+# target to preprocess a source file
+erode.cpp.i:
+	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/erode.cpp.i
+.PHONY : erode.cpp.i
+
+erode.s: erode.cpp.s
+
+.PHONY : erode.s
+
+# target to generate assembly for a file
+erode.cpp.s:
+	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/erode.cpp.s
+.PHONY : erode.cpp.s
 
 imageDraw.o: imageDraw.cpp.o
 
@@ -397,8 +477,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... erode"
 	@echo "... thresholding"
 	@echo "... writeVideo"
+	@echo "... dilate"
 	@echo "... cropAndResize"
 	@echo "... datatypeConversion"
 	@echo "... imageDraw"
@@ -411,6 +493,12 @@ help:
 	@echo "... datatypeConversion.o"
 	@echo "... datatypeConversion.i"
 	@echo "... datatypeConversion.s"
+	@echo "... dilate.o"
+	@echo "... dilate.i"
+	@echo "... dilate.s"
+	@echo "... erode.o"
+	@echo "... erode.i"
+	@echo "... erode.s"
 	@echo "... imageDraw.o"
 	@echo "... imageDraw.i"
 	@echo "... imageDraw.s"
