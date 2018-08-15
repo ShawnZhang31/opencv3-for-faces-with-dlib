@@ -137,6 +137,19 @@ thresholding/fast:
 .PHONY : thresholding/fast
 
 #=============================================================================
+# Target rules for targets named closing
+
+# Build rule for target.
+closing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 closing
+.PHONY : closing
+
+# fast build rule for target.
+closing/fast:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/build
+.PHONY : closing/fast
+
+#=============================================================================
 # Target rules for targets named writeVideo
 
 # Build rule for target.
@@ -150,6 +163,32 @@ writeVideo/fast:
 .PHONY : writeVideo/fast
 
 #=============================================================================
+# Target rules for targets named readWriteDisplay
+
+# Build rule for target.
+readWriteDisplay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 readWriteDisplay
+.PHONY : readWriteDisplay
+
+# fast build rule for target.
+readWriteDisplay/fast:
+	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
+.PHONY : readWriteDisplay/fast
+
+#=============================================================================
+# Target rules for targets named opening
+
+# Build rule for target.
+opening: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opening
+.PHONY : opening
+
+# fast build rule for target.
+opening/fast:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/build
+.PHONY : opening/fast
+
+#=============================================================================
 # Target rules for targets named dilate
 
 # Build rule for target.
@@ -161,6 +200,19 @@ dilate: cmake_check_build_system
 dilate/fast:
 	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/build
 .PHONY : dilate/fast
+
+#=============================================================================
+# Target rules for targets named imageDraw
+
+# Build rule for target.
+imageDraw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imageDraw
+.PHONY : imageDraw
+
+# fast build rule for target.
+imageDraw/fast:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/build
+.PHONY : imageDraw/fast
 
 #=============================================================================
 # Target rules for targets named cropAndResize
@@ -189,19 +241,6 @@ datatypeConversion/fast:
 .PHONY : datatypeConversion/fast
 
 #=============================================================================
-# Target rules for targets named imageDraw
-
-# Build rule for target.
-imageDraw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 imageDraw
-.PHONY : imageDraw
-
-# fast build rule for target.
-imageDraw/fast:
-	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/build
-.PHONY : imageDraw/fast
-
-#=============================================================================
 # Target rules for targets named readAndDisplayVideo
 
 # Build rule for target.
@@ -214,18 +253,32 @@ readAndDisplayVideo/fast:
 	$(MAKE) -f CMakeFiles/readAndDisplayVideo.dir/build.make CMakeFiles/readAndDisplayVideo.dir/build
 .PHONY : readAndDisplayVideo/fast
 
-#=============================================================================
-# Target rules for targets named readWriteDisplay
+closing.o: closing.cpp.o
 
-# Build rule for target.
-readWriteDisplay: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 readWriteDisplay
-.PHONY : readWriteDisplay
+.PHONY : closing.o
 
-# fast build rule for target.
-readWriteDisplay/fast:
-	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
-.PHONY : readWriteDisplay/fast
+# target to build an object file
+closing.cpp.o:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/closing.cpp.o
+.PHONY : closing.cpp.o
+
+closing.i: closing.cpp.i
+
+.PHONY : closing.i
+
+# target to preprocess a source file
+closing.cpp.i:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/closing.cpp.i
+.PHONY : closing.cpp.i
+
+closing.s: closing.cpp.s
+
+.PHONY : closing.s
+
+# target to generate assembly for a file
+closing.cpp.s:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/closing.cpp.s
+.PHONY : closing.cpp.s
 
 cropAndResize.o: cropAndResize.cpp.o
 
@@ -362,6 +415,33 @@ imageDraw.cpp.s:
 	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/imageDraw.cpp.s
 .PHONY : imageDraw.cpp.s
 
+opening.o: opening.cpp.o
+
+.PHONY : opening.o
+
+# target to build an object file
+opening.cpp.o:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/opening.cpp.o
+.PHONY : opening.cpp.o
+
+opening.i: opening.cpp.i
+
+.PHONY : opening.i
+
+# target to preprocess a source file
+opening.cpp.i:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/opening.cpp.i
+.PHONY : opening.cpp.i
+
+opening.s: opening.cpp.s
+
+.PHONY : opening.s
+
+# target to generate assembly for a file
+opening.cpp.s:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/opening.cpp.s
+.PHONY : opening.cpp.s
+
 readAndDisplayVideo.o: readAndDisplayVideo.cpp.o
 
 .PHONY : readAndDisplayVideo.o
@@ -477,16 +557,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... erode"
 	@echo "... thresholding"
+	@echo "... closing"
 	@echo "... writeVideo"
+	@echo "... readWriteDisplay"
+	@echo "... opening"
 	@echo "... dilate"
+	@echo "... imageDraw"
 	@echo "... cropAndResize"
 	@echo "... datatypeConversion"
-	@echo "... imageDraw"
-	@echo "... edit_cache"
 	@echo "... readAndDisplayVideo"
-	@echo "... readWriteDisplay"
+	@echo "... closing.o"
+	@echo "... closing.i"
+	@echo "... closing.s"
 	@echo "... cropAndResize.o"
 	@echo "... cropAndResize.i"
 	@echo "... cropAndResize.s"
@@ -502,6 +587,9 @@ help:
 	@echo "... imageDraw.o"
 	@echo "... imageDraw.i"
 	@echo "... imageDraw.s"
+	@echo "... opening.o"
+	@echo "... opening.i"
+	@echo "... opening.s"
 	@echo "... readAndDisplayVideo.o"
 	@echo "... readAndDisplayVideo.i"
 	@echo "... readAndDisplayVideo.s"

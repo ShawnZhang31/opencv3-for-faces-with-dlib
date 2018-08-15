@@ -54,11 +54,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/erode.dir/DependInfo.cmake"
   "CMakeFiles/thresholding.dir/DependInfo.cmake"
+  "CMakeFiles/closing.dir/DependInfo.cmake"
   "CMakeFiles/writeVideo.dir/DependInfo.cmake"
+  "CMakeFiles/readWriteDisplay.dir/DependInfo.cmake"
+  "CMakeFiles/opening.dir/DependInfo.cmake"
   "CMakeFiles/dilate.dir/DependInfo.cmake"
+  "CMakeFiles/imageDraw.dir/DependInfo.cmake"
   "CMakeFiles/cropAndResize.dir/DependInfo.cmake"
   "CMakeFiles/datatypeConversion.dir/DependInfo.cmake"
-  "CMakeFiles/imageDraw.dir/DependInfo.cmake"
   "CMakeFiles/readAndDisplayVideo.dir/DependInfo.cmake"
-  "CMakeFiles/readWriteDisplay.dir/DependInfo.cmake"
   )

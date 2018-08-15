@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4F
 CMakeFiles/erode.dir/all:
 	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/depend
 	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=7,8 "Built target erode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=9,10 "Built target erode"
 .PHONY : CMakeFiles/erode.dir/all
 
 # Include target in all.
@@ -103,7 +103,7 @@ clean: CMakeFiles/erode.dir/clean
 CMakeFiles/thresholding.dir/all:
 	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/depend
 	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=15,16 "Built target thresholding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=19,20 "Built target thresholding"
 .PHONY : CMakeFiles/thresholding.dir/all
 
 # Include target in all.
@@ -134,13 +134,50 @@ clean: CMakeFiles/thresholding.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/closing.dir
+
+# All Build rule for target.
+CMakeFiles/closing.dir/all:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/depend
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=1,2 "Built target closing"
+.PHONY : CMakeFiles/closing.dir/all
+
+# Include target in all.
+all: CMakeFiles/closing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/closing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/closing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/closing.dir/rule
+
+# Convenience name for target.
+closing: CMakeFiles/closing.dir/rule
+
+.PHONY : closing
+
+# clean rule for target.
+CMakeFiles/closing.dir/clean:
+	$(MAKE) -f CMakeFiles/closing.dir/build.make CMakeFiles/closing.dir/clean
+.PHONY : CMakeFiles/closing.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/closing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/writeVideo.dir
 
 # All Build rule for target.
 CMakeFiles/writeVideo.dir/all:
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/depend
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=17,18 "Built target writeVideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=21,22 "Built target writeVideo"
 .PHONY : CMakeFiles/writeVideo.dir/all
 
 # Include target in all.
@@ -171,13 +208,87 @@ clean: CMakeFiles/writeVideo.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/readWriteDisplay.dir
+
+# All Build rule for target.
+CMakeFiles/readWriteDisplay.dir/all:
+	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/depend
+	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=17,18 "Built target readWriteDisplay"
+.PHONY : CMakeFiles/readWriteDisplay.dir/all
+
+# Include target in all.
+all: CMakeFiles/readWriteDisplay.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/readWriteDisplay.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/readWriteDisplay.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/readWriteDisplay.dir/rule
+
+# Convenience name for target.
+readWriteDisplay: CMakeFiles/readWriteDisplay.dir/rule
+
+.PHONY : readWriteDisplay
+
+# clean rule for target.
+CMakeFiles/readWriteDisplay.dir/clean:
+	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/clean
+.PHONY : CMakeFiles/readWriteDisplay.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/readWriteDisplay.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/opening.dir
+
+# All Build rule for target.
+CMakeFiles/opening.dir/all:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/depend
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=13,14 "Built target opening"
+.PHONY : CMakeFiles/opening.dir/all
+
+# Include target in all.
+all: CMakeFiles/opening.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/opening.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opening.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/opening.dir/rule
+
+# Convenience name for target.
+opening: CMakeFiles/opening.dir/rule
+
+.PHONY : opening
+
+# clean rule for target.
+CMakeFiles/opening.dir/clean:
+	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/clean
+.PHONY : CMakeFiles/opening.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/opening.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/dilate.dir
 
 # All Build rule for target.
 CMakeFiles/dilate.dir/all:
 	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/depend
 	$(MAKE) -f CMakeFiles/dilate.dir/build.make CMakeFiles/dilate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=5,6 "Built target dilate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=7,8 "Built target dilate"
 .PHONY : CMakeFiles/dilate.dir/all
 
 # Include target in all.
@@ -208,13 +319,50 @@ clean: CMakeFiles/dilate.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/imageDraw.dir
+
+# All Build rule for target.
+CMakeFiles/imageDraw.dir/all:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/depend
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=11,12 "Built target imageDraw"
+.PHONY : CMakeFiles/imageDraw.dir/all
+
+# Include target in all.
+all: CMakeFiles/imageDraw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/imageDraw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imageDraw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/imageDraw.dir/rule
+
+# Convenience name for target.
+imageDraw: CMakeFiles/imageDraw.dir/rule
+
+.PHONY : imageDraw
+
+# clean rule for target.
+CMakeFiles/imageDraw.dir/clean:
+	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/clean
+.PHONY : CMakeFiles/imageDraw.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/imageDraw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cropAndResize.dir
 
 # All Build rule for target.
 CMakeFiles/cropAndResize.dir/all:
 	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/depend
 	$(MAKE) -f CMakeFiles/cropAndResize.dir/build.make CMakeFiles/cropAndResize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=1,2 "Built target cropAndResize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=3,4 "Built target cropAndResize"
 .PHONY : CMakeFiles/cropAndResize.dir/all
 
 # Include target in all.
@@ -251,7 +399,7 @@ clean: CMakeFiles/cropAndResize.dir/clean
 CMakeFiles/datatypeConversion.dir/all:
 	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/depend
 	$(MAKE) -f CMakeFiles/datatypeConversion.dir/build.make CMakeFiles/datatypeConversion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=3,4 "Built target datatypeConversion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=5,6 "Built target datatypeConversion"
 .PHONY : CMakeFiles/datatypeConversion.dir/all
 
 # Include target in all.
@@ -282,50 +430,13 @@ clean: CMakeFiles/datatypeConversion.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/imageDraw.dir
-
-# All Build rule for target.
-CMakeFiles/imageDraw.dir/all:
-	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/depend
-	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=9,10 "Built target imageDraw"
-.PHONY : CMakeFiles/imageDraw.dir/all
-
-# Include target in all.
-all: CMakeFiles/imageDraw.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/imageDraw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imageDraw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/imageDraw.dir/rule
-
-# Convenience name for target.
-imageDraw: CMakeFiles/imageDraw.dir/rule
-
-.PHONY : imageDraw
-
-# clean rule for target.
-CMakeFiles/imageDraw.dir/clean:
-	$(MAKE) -f CMakeFiles/imageDraw.dir/build.make CMakeFiles/imageDraw.dir/clean
-.PHONY : CMakeFiles/imageDraw.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/imageDraw.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/readAndDisplayVideo.dir
 
 # All Build rule for target.
 CMakeFiles/readAndDisplayVideo.dir/all:
 	$(MAKE) -f CMakeFiles/readAndDisplayVideo.dir/build.make CMakeFiles/readAndDisplayVideo.dir/depend
 	$(MAKE) -f CMakeFiles/readAndDisplayVideo.dir/build.make CMakeFiles/readAndDisplayVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=11,12 "Built target readAndDisplayVideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=15,16 "Built target readAndDisplayVideo"
 .PHONY : CMakeFiles/readAndDisplayVideo.dir/all
 
 # Include target in all.
@@ -352,43 +463,6 @@ CMakeFiles/readAndDisplayVideo.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/readAndDisplayVideo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/readWriteDisplay.dir
-
-# All Build rule for target.
-CMakeFiles/readWriteDisplay.dir/all:
-	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/depend
-	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=13,14 "Built target readWriteDisplay"
-.PHONY : CMakeFiles/readWriteDisplay.dir/all
-
-# Include target in all.
-all: CMakeFiles/readWriteDisplay.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/readWriteDisplay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/readWriteDisplay.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/readWriteDisplay.dir/rule
-
-# Convenience name for target.
-readWriteDisplay: CMakeFiles/readWriteDisplay.dir/rule
-
-.PHONY : readWriteDisplay
-
-# clean rule for target.
-CMakeFiles/readWriteDisplay.dir/clean:
-	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/clean
-.PHONY : CMakeFiles/readWriteDisplay.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/readWriteDisplay.dir/clean
 
 .PHONY : clean
 
