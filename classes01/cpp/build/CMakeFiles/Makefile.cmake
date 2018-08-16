@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/trackbar.dir/DependInfo.cmake"
   "CMakeFiles/connectedComponentAnalysis.dir/DependInfo.cmake"
   "CMakeFiles/erode.dir/DependInfo.cmake"
   "CMakeFiles/thresholding.dir/DependInfo.cmake"
@@ -59,6 +60,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/writeVideo.dir/DependInfo.cmake"
   "CMakeFiles/readWriteDisplay.dir/DependInfo.cmake"
   "CMakeFiles/opening.dir/DependInfo.cmake"
+  "CMakeFiles/highguiMouse.dir/DependInfo.cmake"
+  "CMakeFiles/highguiKeyboard.dir/DependInfo.cmake"
   "CMakeFiles/dilate.dir/DependInfo.cmake"
   "CMakeFiles/imageDraw.dir/DependInfo.cmake"
   "CMakeFiles/cropAndResize.dir/DependInfo.cmake"

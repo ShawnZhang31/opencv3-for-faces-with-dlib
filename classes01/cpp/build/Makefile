@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named trackbar
+
+# Build rule for target.
+trackbar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trackbar
+.PHONY : trackbar
+
+# fast build rule for target.
+trackbar/fast:
+	$(MAKE) -f CMakeFiles/trackbar.dir/build.make CMakeFiles/trackbar.dir/build
+.PHONY : trackbar/fast
+
+#=============================================================================
 # Target rules for targets named connectedComponentAnalysis
 
 # Build rule for target.
@@ -200,6 +213,32 @@ opening: cmake_check_build_system
 opening/fast:
 	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/build
 .PHONY : opening/fast
+
+#=============================================================================
+# Target rules for targets named highguiMouse
+
+# Build rule for target.
+highguiMouse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 highguiMouse
+.PHONY : highguiMouse
+
+# fast build rule for target.
+highguiMouse/fast:
+	$(MAKE) -f CMakeFiles/highguiMouse.dir/build.make CMakeFiles/highguiMouse.dir/build
+.PHONY : highguiMouse/fast
+
+#=============================================================================
+# Target rules for targets named highguiKeyboard
+
+# Build rule for target.
+highguiKeyboard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 highguiKeyboard
+.PHONY : highguiKeyboard
+
+# fast build rule for target.
+highguiKeyboard/fast:
+	$(MAKE) -f CMakeFiles/highguiKeyboard.dir/build.make CMakeFiles/highguiKeyboard.dir/build
+.PHONY : highguiKeyboard/fast
 
 #=============================================================================
 # Target rules for targets named dilate
@@ -428,6 +467,60 @@ erode.cpp.s:
 	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/erode.cpp.s
 .PHONY : erode.cpp.s
 
+highguiKeyboard.o: highguiKeyboard.cpp.o
+
+.PHONY : highguiKeyboard.o
+
+# target to build an object file
+highguiKeyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/highguiKeyboard.dir/build.make CMakeFiles/highguiKeyboard.dir/highguiKeyboard.cpp.o
+.PHONY : highguiKeyboard.cpp.o
+
+highguiKeyboard.i: highguiKeyboard.cpp.i
+
+.PHONY : highguiKeyboard.i
+
+# target to preprocess a source file
+highguiKeyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/highguiKeyboard.dir/build.make CMakeFiles/highguiKeyboard.dir/highguiKeyboard.cpp.i
+.PHONY : highguiKeyboard.cpp.i
+
+highguiKeyboard.s: highguiKeyboard.cpp.s
+
+.PHONY : highguiKeyboard.s
+
+# target to generate assembly for a file
+highguiKeyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/highguiKeyboard.dir/build.make CMakeFiles/highguiKeyboard.dir/highguiKeyboard.cpp.s
+.PHONY : highguiKeyboard.cpp.s
+
+highguiMouse.o: highguiMouse.cpp.o
+
+.PHONY : highguiMouse.o
+
+# target to build an object file
+highguiMouse.cpp.o:
+	$(MAKE) -f CMakeFiles/highguiMouse.dir/build.make CMakeFiles/highguiMouse.dir/highguiMouse.cpp.o
+.PHONY : highguiMouse.cpp.o
+
+highguiMouse.i: highguiMouse.cpp.i
+
+.PHONY : highguiMouse.i
+
+# target to preprocess a source file
+highguiMouse.cpp.i:
+	$(MAKE) -f CMakeFiles/highguiMouse.dir/build.make CMakeFiles/highguiMouse.dir/highguiMouse.cpp.i
+.PHONY : highguiMouse.cpp.i
+
+highguiMouse.s: highguiMouse.cpp.s
+
+.PHONY : highguiMouse.s
+
+# target to generate assembly for a file
+highguiMouse.cpp.s:
+	$(MAKE) -f CMakeFiles/highguiMouse.dir/build.make CMakeFiles/highguiMouse.dir/highguiMouse.cpp.s
+.PHONY : highguiMouse.cpp.s
+
 imageDraw.o: imageDraw.cpp.o
 
 .PHONY : imageDraw.o
@@ -563,6 +656,33 @@ thresholding.cpp.s:
 	$(MAKE) -f CMakeFiles/thresholding.dir/build.make CMakeFiles/thresholding.dir/thresholding.cpp.s
 .PHONY : thresholding.cpp.s
 
+trackbar.o: trackbar.cpp.o
+
+.PHONY : trackbar.o
+
+# target to build an object file
+trackbar.cpp.o:
+	$(MAKE) -f CMakeFiles/trackbar.dir/build.make CMakeFiles/trackbar.dir/trackbar.cpp.o
+.PHONY : trackbar.cpp.o
+
+trackbar.i: trackbar.cpp.i
+
+.PHONY : trackbar.i
+
+# target to preprocess a source file
+trackbar.cpp.i:
+	$(MAKE) -f CMakeFiles/trackbar.dir/build.make CMakeFiles/trackbar.dir/trackbar.cpp.i
+.PHONY : trackbar.cpp.i
+
+trackbar.s: trackbar.cpp.s
+
+.PHONY : trackbar.s
+
+# target to generate assembly for a file
+trackbar.cpp.s:
+	$(MAKE) -f CMakeFiles/trackbar.dir/build.make CMakeFiles/trackbar.dir/trackbar.cpp.s
+.PHONY : trackbar.cpp.s
+
 writeVideo.o: writeVideo.cpp.o
 
 .PHONY : writeVideo.o
@@ -598,6 +718,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... trackbar"
 	@echo "... connectedComponentAnalysis"
 	@echo "... erode"
 	@echo "... thresholding"
@@ -605,6 +726,8 @@ help:
 	@echo "... writeVideo"
 	@echo "... readWriteDisplay"
 	@echo "... opening"
+	@echo "... highguiMouse"
+	@echo "... highguiKeyboard"
 	@echo "... dilate"
 	@echo "... imageDraw"
 	@echo "... cropAndResize"
@@ -628,6 +751,12 @@ help:
 	@echo "... erode.o"
 	@echo "... erode.i"
 	@echo "... erode.s"
+	@echo "... highguiKeyboard.o"
+	@echo "... highguiKeyboard.i"
+	@echo "... highguiKeyboard.s"
+	@echo "... highguiMouse.o"
+	@echo "... highguiMouse.i"
+	@echo "... highguiMouse.s"
 	@echo "... imageDraw.o"
 	@echo "... imageDraw.i"
 	@echo "... imageDraw.s"
@@ -643,6 +772,9 @@ help:
 	@echo "... thresholding.o"
 	@echo "... thresholding.i"
 	@echo "... thresholding.s"
+	@echo "... trackbar.o"
+	@echo "... trackbar.i"
+	@echo "... trackbar.s"
 	@echo "... writeVideo.o"
 	@echo "... writeVideo.i"
 	@echo "... writeVideo.s"
