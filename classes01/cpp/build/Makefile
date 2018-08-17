@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named rotate
+
+# Build rule for target.
+rotate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotate
+.PHONY : rotate
+
+# fast build rule for target.
+rotate/fast:
+	$(MAKE) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/build
+.PHONY : rotate/fast
+
+#=============================================================================
 # Target rules for targets named trackbar
 
 # Build rule for target.
@@ -629,6 +642,33 @@ readWriteDisplay.cpp.s:
 	$(MAKE) -f CMakeFiles/readWriteDisplay.dir/build.make CMakeFiles/readWriteDisplay.dir/readWriteDisplay.cpp.s
 .PHONY : readWriteDisplay.cpp.s
 
+rotate.o: rotate.cpp.o
+
+.PHONY : rotate.o
+
+# target to build an object file
+rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/rotate.cpp.o
+.PHONY : rotate.cpp.o
+
+rotate.i: rotate.cpp.i
+
+.PHONY : rotate.i
+
+# target to preprocess a source file
+rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/rotate.cpp.i
+.PHONY : rotate.cpp.i
+
+rotate.s: rotate.cpp.s
+
+.PHONY : rotate.s
+
+# target to generate assembly for a file
+rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/rotate.cpp.s
+.PHONY : rotate.cpp.s
+
 thresholding.o: thresholding.cpp.o
 
 .PHONY : thresholding.o
@@ -718,6 +758,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rotate"
 	@echo "... trackbar"
 	@echo "... connectedComponentAnalysis"
 	@echo "... erode"
@@ -769,6 +810,9 @@ help:
 	@echo "... readWriteDisplay.o"
 	@echo "... readWriteDisplay.i"
 	@echo "... readWriteDisplay.s"
+	@echo "... rotate.o"
+	@echo "... rotate.i"
+	@echo "... rotate.s"
 	@echo "... thresholding.o"
 	@echo "... thresholding.i"
 	@echo "... thresholding.s"

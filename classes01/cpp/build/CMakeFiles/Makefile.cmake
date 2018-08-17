@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/rotate.dir/DependInfo.cmake"
   "CMakeFiles/trackbar.dir/DependInfo.cmake"
   "CMakeFiles/connectedComponentAnalysis.dir/DependInfo.cmake"
   "CMakeFiles/erode.dir/DependInfo.cmake"
