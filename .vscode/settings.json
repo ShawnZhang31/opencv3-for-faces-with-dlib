@@ -2,6 +2,7 @@
     "files.associations": {
         "complex": "cpp",
         "valarray": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }

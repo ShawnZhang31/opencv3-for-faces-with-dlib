@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named getAffine
+
+# Build rule for target.
+getAffine: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getAffine
+.PHONY : getAffine
+
+# fast build rule for target.
+getAffine/fast:
+	$(MAKE) -f CMakeFiles/getAffine.dir/build.make CMakeFiles/getAffine.dir/build
+.PHONY : getAffine/fast
+
+#=============================================================================
 # Target rules for targets named rotate
 
 # Build rule for target.
@@ -480,6 +493,33 @@ erode.cpp.s:
 	$(MAKE) -f CMakeFiles/erode.dir/build.make CMakeFiles/erode.dir/erode.cpp.s
 .PHONY : erode.cpp.s
 
+getAffine.o: getAffine.cpp.o
+
+.PHONY : getAffine.o
+
+# target to build an object file
+getAffine.cpp.o:
+	$(MAKE) -f CMakeFiles/getAffine.dir/build.make CMakeFiles/getAffine.dir/getAffine.cpp.o
+.PHONY : getAffine.cpp.o
+
+getAffine.i: getAffine.cpp.i
+
+.PHONY : getAffine.i
+
+# target to preprocess a source file
+getAffine.cpp.i:
+	$(MAKE) -f CMakeFiles/getAffine.dir/build.make CMakeFiles/getAffine.dir/getAffine.cpp.i
+.PHONY : getAffine.cpp.i
+
+getAffine.s: getAffine.cpp.s
+
+.PHONY : getAffine.s
+
+# target to generate assembly for a file
+getAffine.cpp.s:
+	$(MAKE) -f CMakeFiles/getAffine.dir/build.make CMakeFiles/getAffine.dir/getAffine.cpp.s
+.PHONY : getAffine.cpp.s
+
 highguiKeyboard.o: highguiKeyboard.cpp.o
 
 .PHONY : highguiKeyboard.o
@@ -758,6 +798,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... getAffine"
 	@echo "... rotate"
 	@echo "... trackbar"
 	@echo "... connectedComponentAnalysis"
@@ -792,6 +833,9 @@ help:
 	@echo "... erode.o"
 	@echo "... erode.i"
 	@echo "... erode.s"
+	@echo "... getAffine.o"
+	@echo "... getAffine.i"
+	@echo "... getAffine.s"
 	@echo "... highguiKeyboard.o"
 	@echo "... highguiKeyboard.i"
 	@echo "... highguiKeyboard.s"
