@@ -58,6 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/trackbar.dir/DependInfo.cmake"
   "CMakeFiles/connectedComponentAnalysis.dir/DependInfo.cmake"
   "CMakeFiles/erode.dir/DependInfo.cmake"
+  "CMakeFiles/virtualBillboard.dir/DependInfo.cmake"
   "CMakeFiles/thresholding.dir/DependInfo.cmake"
   "CMakeFiles/closing.dir/DependInfo.cmake"
   "CMakeFiles/writeVideo.dir/DependInfo.cmake"

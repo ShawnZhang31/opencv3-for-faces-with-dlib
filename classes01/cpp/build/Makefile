@@ -189,6 +189,19 @@ erode/fast:
 .PHONY : erode/fast
 
 #=============================================================================
+# Target rules for targets named virtualBillboard
+
+# Build rule for target.
+virtualBillboard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 virtualBillboard
+.PHONY : virtualBillboard
+
+# fast build rule for target.
+virtualBillboard/fast:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/build
+.PHONY : virtualBillboard/fast
+
+#=============================================================================
 # Target rules for targets named thresholding
 
 # Build rule for target.
@@ -843,6 +856,33 @@ trackbar.cpp.s:
 	$(MAKE) -f CMakeFiles/trackbar.dir/build.make CMakeFiles/trackbar.dir/trackbar.cpp.s
 .PHONY : trackbar.cpp.s
 
+virtualBillboard.o: virtualBillboard.cpp.o
+
+.PHONY : virtualBillboard.o
+
+# target to build an object file
+virtualBillboard.cpp.o:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/virtualBillboard.cpp.o
+.PHONY : virtualBillboard.cpp.o
+
+virtualBillboard.i: virtualBillboard.cpp.i
+
+.PHONY : virtualBillboard.i
+
+# target to preprocess a source file
+virtualBillboard.cpp.i:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/virtualBillboard.cpp.i
+.PHONY : virtualBillboard.cpp.i
+
+virtualBillboard.s: virtualBillboard.cpp.s
+
+.PHONY : virtualBillboard.s
+
+# target to generate assembly for a file
+virtualBillboard.cpp.s:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/virtualBillboard.cpp.s
+.PHONY : virtualBillboard.cpp.s
+
 writeVideo.o: writeVideo.cpp.o
 
 .PHONY : writeVideo.o
@@ -884,6 +924,7 @@ help:
 	@echo "... trackbar"
 	@echo "... connectedComponentAnalysis"
 	@echo "... erode"
+	@echo "... virtualBillboard"
 	@echo "... thresholding"
 	@echo "... closing"
 	@echo "... writeVideo"
@@ -951,6 +992,9 @@ help:
 	@echo "... trackbar.o"
 	@echo "... trackbar.i"
 	@echo "... trackbar.s"
+	@echo "... virtualBillboard.o"
+	@echo "... virtualBillboard.i"
+	@echo "... virtualBillboard.s"
 	@echo "... writeVideo.o"
 	@echo "... writeVideo.i"
 	@echo "... writeVideo.s"

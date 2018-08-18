@@ -282,6 +282,43 @@ clean: CMakeFiles/erode.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/virtualBillboard.dir
+
+# All Build rule for target.
+CMakeFiles/virtualBillboard.dir/all:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/depend
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=37,38 "Built target virtualBillboard"
+.PHONY : CMakeFiles/virtualBillboard.dir/all
+
+# Include target in all.
+all: CMakeFiles/virtualBillboard.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/virtualBillboard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/virtualBillboard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/virtualBillboard.dir/rule
+
+# Convenience name for target.
+virtualBillboard: CMakeFiles/virtualBillboard.dir/rule
+
+.PHONY : virtualBillboard
+
+# clean rule for target.
+CMakeFiles/virtualBillboard.dir/clean:
+	$(MAKE) -f CMakeFiles/virtualBillboard.dir/build.make CMakeFiles/virtualBillboard.dir/clean
+.PHONY : CMakeFiles/virtualBillboard.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/virtualBillboard.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/thresholding.dir
 
 # All Build rule for target.
@@ -362,7 +399,7 @@ clean: CMakeFiles/closing.dir/clean
 CMakeFiles/writeVideo.dir/all:
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/depend
 	$(MAKE) -f CMakeFiles/writeVideo.dir/build.make CMakeFiles/writeVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=37,38 "Built target writeVideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles --progress-num=39,40 "Built target writeVideo"
 .PHONY : CMakeFiles/writeVideo.dir/all
 
 # Include target in all.
