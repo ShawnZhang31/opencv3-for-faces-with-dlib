@@ -319,6 +319,19 @@ datatypeConversion/fast:
 .PHONY : datatypeConversion/fast
 
 #=============================================================================
+# Target rules for targets named homography_book
+
+# Build rule for target.
+homography_book: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 homography_book
+.PHONY : homography_book
+
+# fast build rule for target.
+homography_book/fast:
+	$(MAKE) -f CMakeFiles/homography_book.dir/build.make CMakeFiles/homography_book.dir/build
+.PHONY : homography_book/fast
+
+#=============================================================================
 # Target rules for targets named readAndDisplayVideo
 
 # Build rule for target.
@@ -574,6 +587,33 @@ highguiMouse.cpp.s:
 	$(MAKE) -f CMakeFiles/highguiMouse.dir/build.make CMakeFiles/highguiMouse.dir/highguiMouse.cpp.s
 .PHONY : highguiMouse.cpp.s
 
+homography_book.o: homography_book.cpp.o
+
+.PHONY : homography_book.o
+
+# target to build an object file
+homography_book.cpp.o:
+	$(MAKE) -f CMakeFiles/homography_book.dir/build.make CMakeFiles/homography_book.dir/homography_book.cpp.o
+.PHONY : homography_book.cpp.o
+
+homography_book.i: homography_book.cpp.i
+
+.PHONY : homography_book.i
+
+# target to preprocess a source file
+homography_book.cpp.i:
+	$(MAKE) -f CMakeFiles/homography_book.dir/build.make CMakeFiles/homography_book.dir/homography_book.cpp.i
+.PHONY : homography_book.cpp.i
+
+homography_book.s: homography_book.cpp.s
+
+.PHONY : homography_book.s
+
+# target to generate assembly for a file
+homography_book.cpp.s:
+	$(MAKE) -f CMakeFiles/homography_book.dir/build.make CMakeFiles/homography_book.dir/homography_book.cpp.s
+.PHONY : homography_book.cpp.s
+
 imageDraw.o: imageDraw.cpp.o
 
 .PHONY : imageDraw.o
@@ -814,6 +854,7 @@ help:
 	@echo "... imageDraw"
 	@echo "... cropAndResize"
 	@echo "... datatypeConversion"
+	@echo "... homography_book"
 	@echo "... readAndDisplayVideo"
 	@echo "... closing.o"
 	@echo "... closing.i"
@@ -842,6 +883,9 @@ help:
 	@echo "... highguiMouse.o"
 	@echo "... highguiMouse.i"
 	@echo "... highguiMouse.s"
+	@echo "... homography_book.o"
+	@echo "... homography_book.i"
+	@echo "... homography_book.s"
 	@echo "... imageDraw.o"
 	@echo "... imageDraw.i"
 	@echo "... imageDraw.s"

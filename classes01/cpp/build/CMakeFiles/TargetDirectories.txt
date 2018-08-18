@@ -16,4 +16,5 @@
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles/imageDraw.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles/cropAndResize.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles/datatypeConversion.dir
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles/homography_book.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes01/cpp/build/CMakeFiles/readAndDisplayVideo.dir

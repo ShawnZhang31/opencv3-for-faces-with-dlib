@@ -68,5 +68,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/imageDraw.dir/DependInfo.cmake"
   "CMakeFiles/cropAndResize.dir/DependInfo.cmake"
   "CMakeFiles/datatypeConversion.dir/DependInfo.cmake"
+  "CMakeFiles/homography_book.dir/DependInfo.cmake"
   "CMakeFiles/readAndDisplayVideo.dir/DependInfo.cmake"
   )
