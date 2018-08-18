@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named perspectiveCorrection
+
+# Build rule for target.
+perspectiveCorrection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 perspectiveCorrection
+.PHONY : perspectiveCorrection
+
+# fast build rule for target.
+perspectiveCorrection/fast:
+	$(MAKE) -f CMakeFiles/perspectiveCorrection.dir/build.make CMakeFiles/perspectiveCorrection.dir/build
+.PHONY : perspectiveCorrection/fast
+
+#=============================================================================
 # Target rules for targets named getAffine
 
 # Build rule for target.
@@ -668,6 +681,33 @@ opening.cpp.s:
 	$(MAKE) -f CMakeFiles/opening.dir/build.make CMakeFiles/opening.dir/opening.cpp.s
 .PHONY : opening.cpp.s
 
+perspectiveCorrection.o: perspectiveCorrection.cpp.o
+
+.PHONY : perspectiveCorrection.o
+
+# target to build an object file
+perspectiveCorrection.cpp.o:
+	$(MAKE) -f CMakeFiles/perspectiveCorrection.dir/build.make CMakeFiles/perspectiveCorrection.dir/perspectiveCorrection.cpp.o
+.PHONY : perspectiveCorrection.cpp.o
+
+perspectiveCorrection.i: perspectiveCorrection.cpp.i
+
+.PHONY : perspectiveCorrection.i
+
+# target to preprocess a source file
+perspectiveCorrection.cpp.i:
+	$(MAKE) -f CMakeFiles/perspectiveCorrection.dir/build.make CMakeFiles/perspectiveCorrection.dir/perspectiveCorrection.cpp.i
+.PHONY : perspectiveCorrection.cpp.i
+
+perspectiveCorrection.s: perspectiveCorrection.cpp.s
+
+.PHONY : perspectiveCorrection.s
+
+# target to generate assembly for a file
+perspectiveCorrection.cpp.s:
+	$(MAKE) -f CMakeFiles/perspectiveCorrection.dir/build.make CMakeFiles/perspectiveCorrection.dir/perspectiveCorrection.cpp.s
+.PHONY : perspectiveCorrection.cpp.s
+
 readAndDisplayVideo.o: readAndDisplayVideo.cpp.o
 
 .PHONY : readAndDisplayVideo.o
@@ -838,6 +878,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... perspectiveCorrection"
 	@echo "... getAffine"
 	@echo "... rotate"
 	@echo "... trackbar"
@@ -892,6 +933,9 @@ help:
 	@echo "... opening.o"
 	@echo "... opening.i"
 	@echo "... opening.s"
+	@echo "... perspectiveCorrection.o"
+	@echo "... perspectiveCorrection.i"
+	@echo "... perspectiveCorrection.s"
 	@echo "... readAndDisplayVideo.o"
 	@echo "... readAndDisplayVideo.i"
 	@echo "... readAndDisplayVideo.s"
