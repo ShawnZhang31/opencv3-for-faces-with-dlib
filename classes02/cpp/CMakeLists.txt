@@ -33,3 +33,4 @@ MACRO(add_example name)
 ENDMACRO()
 
 add_example(hueHistogram)
+add_example(desaturation)
