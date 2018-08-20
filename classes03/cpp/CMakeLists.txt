@@ -16,3 +16,4 @@ MACRO(add_example name)
 ENDMACRO()
 
 add_example(FacialLandmarkDetector)
+add_example(fastWebcamFLD)

@@ -14,7 +14,6 @@ using namespace dlib;
 using namespace std;
 using namespace cv;
 
-
 /**
  * @brief 绘制多边形
  * 
@@ -31,7 +30,7 @@ void drawPolyline(cv::Mat &img, const dlib::full_object_detection &landmark, con
     {
         points.push_back(cv::Point(landmark.part(i).x(), landmark.part(i).y()));
     }
-    cv::polylines(img, points, isClosed,cv::Scalar(255,200,0),2,16);
+    cv::polylines(img, points, isClosed,cv::Scalar(255,200,0),2,4);
 }
 
 /**

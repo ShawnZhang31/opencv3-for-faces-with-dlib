@@ -15,6 +15,7 @@ def drawPolyline(im, landmarks, start, end, isClosed=False):
     for i in range(start, end+1):
         point=[landmarks.part(i).x, landmarks.part(i).y]
         points.append(point)
+        cv2.circle(im,(point[0],point[1]),3,color=(255,0,255),thickness=2,lineType=cv2.LINE_4)
     
     points=np.array(points, dtype=np.int32)
     cv2.polylines(im,[points], isClosed, (255,200,0), thickness=2, lineType=cv2.LINE_AA)
