@@ -1,5 +1,7 @@
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/rebuild_cache.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/edit_cache.dir
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/webcamStabilizedFLD.dir
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/fastWebcamFLD.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/FacialLandmarkDetector.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/CMakeFiles/rebuild_cache.dir
 /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/CMakeFiles/edit_cache.dir

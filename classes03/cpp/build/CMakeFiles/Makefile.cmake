@@ -74,6 +74,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/webcamStabilizedFLD.dir/DependInfo.cmake"
+  "CMakeFiles/fastWebcamFLD.dir/DependInfo.cmake"
   "CMakeFiles/FacialLandmarkDetector.dir/DependInfo.cmake"
   "dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake"
   )

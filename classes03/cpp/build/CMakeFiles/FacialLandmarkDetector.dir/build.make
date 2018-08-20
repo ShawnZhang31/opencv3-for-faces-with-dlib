@@ -60,15 +60,15 @@ include CMakeFiles/FacialLandmarkDetector.dir/flags.make
 CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o: CMakeFiles/FacialLandmarkDetector.dir/flags.make
 CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o: ../FacialLandmarkDetector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp
 
 CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp > CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp > CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.i
 
 CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp -o CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/FacialLandmarkDetector.cpp -o CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.s
 
 CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.o.requires:
 

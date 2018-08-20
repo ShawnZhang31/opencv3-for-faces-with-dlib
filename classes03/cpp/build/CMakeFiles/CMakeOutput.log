@@ -1,6 +1,6 @@
 The system is: Darwin - 17.7.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Compiler: /usr/bin/clang 
 Build flags: 
 Id flags:  
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is AppleClang, found in "/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/3.9.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Compiler: /usr/bin/clang++ 
 Build flags: 
 Id flags:  
 
@@ -28,31 +28,31 @@ The CXX compiler identification is AppleClang, found in "/Users/zhangxiaomin/Wor
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f5e2b/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f5e2b.dir/build.make CMakeFiles/cmTC_f5e2b.dir/build
-Building C object CMakeFiles/cmTC_f5e2b.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f5e2b.dir/testCCompiler.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f5e2b
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e2b.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5e2b.dir/testCCompiler.c.o  -o cmTC_f5e2b 
+Run Build Command:"/usr/bin/make" "cmTC_49aca/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49aca.dir/build.make CMakeFiles/cmTC_49aca.dir/build
+Building C object CMakeFiles/cmTC_49aca.dir/testCCompiler.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_49aca.dir/testCCompiler.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_49aca
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49aca.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_49aca.dir/testCCompiler.c.o  -o cmTC_49aca 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8b67/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8b67.dir/build.make CMakeFiles/cmTC_c8b67.dir/build
-Building C object CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c8b67
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8b67.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o  -o cmTC_c8b67 
+Run Build Command:"/usr/bin/make" "cmTC_c2858/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2858.dir/build.make CMakeFiles/cmTC_c2858.dir/build
+Building C object CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c2858
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2858.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o  -o cmTC_c2858 
 Apple LLVM version 9.1.0 (clang-902.0.39.2)
 Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 Found CUDA installation: /usr/local/cuda, version unknown
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c8b67 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c2858 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -65,19 +65,19 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c8b67/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8b67.dir/build.make CMakeFiles/cmTC_c8b67.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c8b67]
-  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8b67.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o  -o cmTC_c8b67 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c2858/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2858.dir/build.make CMakeFiles/cmTC_c2858.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c2858]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2858.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o  -o cmTC_c2858 ]
   ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version unknown]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c8b67 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c2858 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -90,11 +90,11 @@ Parsed C implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c8b67] ==> ignore
+    arg [cmTC_c2858] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_c8b67.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c2858.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
@@ -113,13 +113,13 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64c6e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64c6e.dir/build.make CMakeFiles/cmTC_64c6e.dir/build
-Building C object CMakeFiles/cmTC_64c6e.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c11 -o CMakeFiles/cmTC_64c6e.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_64c6e
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c6e.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_64c6e.dir/feature_tests.c.o  -o cmTC_64c6e 
+Run Build Command:"/usr/bin/make" "cmTC_48fde/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48fde.dir/build.make CMakeFiles/cmTC_48fde.dir/build
+Building C object CMakeFiles/cmTC_48fde.dir/feature_tests.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c11 -o CMakeFiles/cmTC_48fde.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48fde
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48fde.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48fde.dir/feature_tests.c.o  -o cmTC_48fde 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -131,13 +131,13 @@ Linking C executable cmTC_64c6e
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1a2c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f1a2c.dir/build.make CMakeFiles/cmTC_f1a2c.dir/build
-Building C object CMakeFiles/cmTC_f1a2c.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c99 -o CMakeFiles/cmTC_f1a2c.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f1a2c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1a2c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f1a2c.dir/feature_tests.c.o  -o cmTC_f1a2c 
+Run Build Command:"/usr/bin/make" "cmTC_14df8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_14df8.dir/build.make CMakeFiles/cmTC_14df8.dir/build
+Building C object CMakeFiles/cmTC_14df8.dir/feature_tests.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c99 -o CMakeFiles/cmTC_14df8.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_14df8
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14df8.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_14df8.dir/feature_tests.c.o  -o cmTC_14df8 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -149,13 +149,13 @@ Linking C executable cmTC_f1a2c
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1beeb/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1beeb.dir/build.make CMakeFiles/cmTC_1beeb.dir/build
-Building C object CMakeFiles/cmTC_1beeb.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c90 -o CMakeFiles/cmTC_1beeb.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1beeb
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1beeb.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1beeb.dir/feature_tests.c.o  -o cmTC_1beeb 
+Run Build Command:"/usr/bin/make" "cmTC_bcc73/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bcc73.dir/build.make CMakeFiles/cmTC_bcc73.dir/build
+Building C object CMakeFiles/cmTC_bcc73.dir/feature_tests.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c90 -o CMakeFiles/cmTC_bcc73.dir/feature_tests.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bcc73
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc73.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bcc73.dir/feature_tests.c.o  -o cmTC_bcc73 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,31 +165,31 @@ Linking C executable cmTC_1beeb
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ba24/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ba24.dir/build.make CMakeFiles/cmTC_5ba24.dir/build
-Building CXX object CMakeFiles/cmTC_5ba24.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5ba24.dir/testCXXCompiler.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_5ba24
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba24.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5ba24.dir/testCXXCompiler.cxx.o  -o cmTC_5ba24 
+Run Build Command:"/usr/bin/make" "cmTC_d868d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d868d.dir/build.make CMakeFiles/cmTC_d868d.dir/build
+Building CXX object CMakeFiles/cmTC_d868d.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_d868d.dir/testCXXCompiler.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d868d
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d868d.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d868d.dir/testCXXCompiler.cxx.o  -o cmTC_d868d 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d43f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d43f.dir/build.make CMakeFiles/cmTC_0d43f.dir/build
-Building CXX object CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_0d43f
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d43f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0d43f 
+Run Build Command:"/usr/bin/make" "cmTC_5dfe7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5dfe7.dir/build.make CMakeFiles/cmTC_5dfe7.dir/build
+Building CXX object CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5dfe7
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dfe7.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5dfe7 
 Apple LLVM version 9.1.0 (clang-902.0.39.2)
 Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 Found CUDA installation: /usr/local/cuda, version unknown
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_0d43f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_5dfe7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -202,19 +202,19 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0d43f/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d43f.dir/build.make CMakeFiles/cmTC_0d43f.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_0d43f]
-  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d43f.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0d43f ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5dfe7/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5dfe7.dir/build.make CMakeFiles/cmTC_5dfe7.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5dfe7]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dfe7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5dfe7 ]
   ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version unknown]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_0d43f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_5dfe7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -227,11 +227,11 @@ Parsed CXX implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0d43f] ==> ignore
+    arg [cmTC_5dfe7] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_0d43f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5dfe7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
@@ -251,13 +251,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d09e9/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d09e9.dir/build.make CMakeFiles/cmTC_d09e9.dir/build
-Building CXX object CMakeFiles/cmTC_d09e9.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++1z -o CMakeFiles/cmTC_d09e9.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d09e9
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09e9.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d09e9.dir/feature_tests.cxx.o  -o cmTC_d09e9 
+Run Build Command:"/usr/bin/make" "cmTC_7c80e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7c80e.dir/build.make CMakeFiles/cmTC_7c80e.dir/build
+Building CXX object CMakeFiles/cmTC_7c80e.dir/feature_tests.cxx.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++1z -o CMakeFiles/cmTC_7c80e.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7c80e
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c80e.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c80e.dir/feature_tests.cxx.o  -o cmTC_7c80e 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -322,13 +322,13 @@ Linking CXX executable cmTC_d09e9
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_58c97/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58c97.dir/build.make CMakeFiles/cmTC_58c97.dir/build
-Building CXX object CMakeFiles/cmTC_58c97.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++14 -o CMakeFiles/cmTC_58c97.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_58c97
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c97.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58c97.dir/feature_tests.cxx.o  -o cmTC_58c97 
+Run Build Command:"/usr/bin/make" "cmTC_072d2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_072d2.dir/build.make CMakeFiles/cmTC_072d2.dir/build
+Building CXX object CMakeFiles/cmTC_072d2.dir/feature_tests.cxx.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++14 -o CMakeFiles/cmTC_072d2.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_072d2
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_072d2.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_072d2.dir/feature_tests.cxx.o  -o cmTC_072d2 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,13 +393,13 @@ Linking CXX executable cmTC_58c97
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e22d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e22d.dir/build.make CMakeFiles/cmTC_4e22d.dir/build
-Building CXX object CMakeFiles/cmTC_4e22d.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++11 -o CMakeFiles/cmTC_4e22d.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4e22d
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e22d.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4e22d.dir/feature_tests.cxx.o  -o cmTC_4e22d 
+Run Build Command:"/usr/bin/make" "cmTC_2af18/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2af18.dir/build.make CMakeFiles/cmTC_2af18.dir/build
+Building CXX object CMakeFiles/cmTC_2af18.dir/feature_tests.cxx.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++11 -o CMakeFiles/cmTC_2af18.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2af18
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af18.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2af18.dir/feature_tests.cxx.o  -o cmTC_2af18 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -464,13 +464,13 @@ Linking CXX executable cmTC_4e22d
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_670ae/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_670ae.dir/build.make CMakeFiles/cmTC_670ae.dir/build
-Building CXX object CMakeFiles/cmTC_670ae.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++98 -o CMakeFiles/cmTC_670ae.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_670ae
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_670ae.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_670ae.dir/feature_tests.cxx.o  -o cmTC_670ae 
+Run Build Command:"/usr/bin/make" "cmTC_e131b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e131b.dir/build.make CMakeFiles/cmTC_e131b.dir/build
+Building CXX object CMakeFiles/cmTC_e131b.dir/feature_tests.cxx.o
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++98 -o CMakeFiles/cmTC_e131b.dir/feature_tests.cxx.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e131b
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e131b.dir/link.txt --verbose=1
+/usr/bin/clang++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e131b.dir/feature_tests.cxx.o  -o cmTC_e131b 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -533,25 +533,25 @@ Linking CXX executable cmTC_670ae
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a0a2/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9a0a2.dir/build.make CMakeFiles/cmTC_9a0a2.dir/build
-Building C object CMakeFiles/cmTC_9a0a2.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9a0a2.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9a0a2
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a0a2.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9a0a2.dir/CheckIncludeFile.c.o  -o cmTC_9a0a2 
+Run Build Command:"/usr/bin/make" "cmTC_9ed25/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ed25.dir/build.make CMakeFiles/cmTC_9ed25.dir/build
+Building C object CMakeFiles/cmTC_9ed25.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9ed25.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9ed25
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed25.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ed25.dir/CheckIncludeFile.c.o  -o cmTC_9ed25 
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b754/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b754.dir/build.make CMakeFiles/cmTC_8b754.dir/build
-Building C object CMakeFiles/cmTC_8b754.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8b754.dir/CheckSymbolExists.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8b754
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b754.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b754.dir/CheckSymbolExists.c.o  -o cmTC_8b754 
+Run Build Command:"/usr/bin/make" "cmTC_7e57b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e57b.dir/build.make CMakeFiles/cmTC_7e57b.dir/build
+Building C object CMakeFiles/cmTC_7e57b.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7e57b.dir/CheckSymbolExists.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7e57b
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e57b.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e57b.dir/CheckSymbolExists.c.o  -o cmTC_7e57b 
 
 File /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -571,85 +571,85 @@ int main(int argc, char** argv)
 Determining if the function XOpenDisplay exists in the /usr/X11R6/lib/libX11.dylib;/usr/X11R6/lib/libXext.dylib passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41376/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41376.dir/build.make CMakeFiles/cmTC_41376.dir/build
-Building C object CMakeFiles/cmTC_41376.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_41376.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_41376
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41376.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41376.dir/CheckFunctionExists.c.o  -o cmTC_41376  -L/usr/X11R6/lib -Wl,-rpath,/usr/X11R6/lib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_827bb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_827bb.dir/build.make CMakeFiles/cmTC_827bb.dir/build
+Building C object CMakeFiles/cmTC_827bb.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_827bb.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_827bb
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_827bb.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_827bb.dir/CheckFunctionExists.c.o  -o cmTC_827bb  -L/usr/X11R6/lib -Wl,-rpath,/usr/X11R6/lib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib 
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8982/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a8982.dir/build.make CMakeFiles/cmTC_a8982.dir/build
-Building C object CMakeFiles/cmTC_a8982.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a8982.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a8982
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8982.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8982.dir/CheckFunctionExists.c.o  -o cmTC_a8982 
+Run Build Command:"/usr/bin/make" "cmTC_08a5a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_08a5a.dir/build.make CMakeFiles/cmTC_08a5a.dir/build
+Building C object CMakeFiles/cmTC_08a5a.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_08a5a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08a5a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08a5a.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_08a5a.dir/CheckFunctionExists.c.o  -o cmTC_08a5a 
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f069c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f069c.dir/build.make CMakeFiles/cmTC_f069c.dir/build
-Building C object CMakeFiles/cmTC_f069c.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f069c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f069c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f069c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f069c.dir/CheckFunctionExists.c.o  -o cmTC_f069c 
+Run Build Command:"/usr/bin/make" "cmTC_56652/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_56652.dir/build.make CMakeFiles/cmTC_56652.dir/build
+Building C object CMakeFiles/cmTC_56652.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_56652.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_56652
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56652.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=connect -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56652.dir/CheckFunctionExists.c.o  -o cmTC_56652 
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e0002/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0002.dir/build.make CMakeFiles/cmTC_e0002.dir/build
-Building C object CMakeFiles/cmTC_e0002.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e0002.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e0002
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0002.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0002.dir/CheckFunctionExists.c.o  -o cmTC_e0002 
+Run Build Command:"/usr/bin/make" "cmTC_c6612/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6612.dir/build.make CMakeFiles/cmTC_c6612.dir/build
+Building C object CMakeFiles/cmTC_c6612.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c6612.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6612
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6612.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=remove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6612.dir/CheckFunctionExists.c.o  -o cmTC_c6612 
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd693/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dd693.dir/build.make CMakeFiles/cmTC_dd693.dir/build
-Building C object CMakeFiles/cmTC_dd693.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_dd693.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dd693
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd693.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dd693.dir/CheckFunctionExists.c.o  -o cmTC_dd693 
+Run Build Command:"/usr/bin/make" "cmTC_b46b2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b46b2.dir/build.make CMakeFiles/cmTC_b46b2.dir/build
+Building C object CMakeFiles/cmTC_b46b2.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b46b2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b46b2
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b46b2.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=shmat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b46b2.dir/CheckFunctionExists.c.o  -o cmTC_b46b2 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_58fe4/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58fe4.dir/build.make CMakeFiles/cmTC_58fe4.dir/build
-Building C object CMakeFiles/cmTC_58fe4.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_58fe4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_58fe4
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fe4.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58fe4.dir/CheckFunctionExists.c.o  -o cmTC_58fe4  -L/usr/X11R6/lib -Wl,-rpath,/usr/X11R6/lib -lICE 
+Run Build Command:"/usr/bin/make" "cmTC_5ae4e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ae4e.dir/build.make CMakeFiles/cmTC_5ae4e.dir/build
+Building C object CMakeFiles/cmTC_5ae4e.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5ae4e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ae4e
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ae4e.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5ae4e.dir/CheckFunctionExists.c.o  -o cmTC_5ae4e  -L/usr/X11R6/lib -Wl,-rpath,/usr/X11R6/lib -lICE 
 
 
 Performing C SOURCE FILE Test GIF_GifFileType_UserData succeeded with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_678c2/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_678c2.dir/build.make CMakeFiles/cmTC_678c2.dir/build
-Building C object CMakeFiles/cmTC_678c2.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Library/Frameworks/Mono.framework/Headers  -DGIF_GifFileType_UserData -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_678c2.dir/src.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_678c2
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_678c2.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DGIF_GifFileType_UserData -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_678c2.dir/src.c.o  -o cmTC_678c2 
+Run Build Command:"/usr/bin/make" "cmTC_48377/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48377.dir/build.make CMakeFiles/cmTC_48377.dir/build
+Building C object CMakeFiles/cmTC_48377.dir/src.c.o
+/usr/bin/clang  -I/Library/Frameworks/Mono.framework/Headers  -DGIF_GifFileType_UserData -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_48377.dir/src.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48377
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48377.dir/link.txt --verbose=1
+/usr/bin/clang  -DGIF_GifFileType_UserData -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48377.dir/src.c.o  -o cmTC_48377 
 
 Source file was:
 
@@ -664,108 +664,108 @@ int main()
 Determining if the function png_create_read_struct exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef913/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef913.dir/build.make CMakeFiles/cmTC_ef913.dir/build
-Building C object CMakeFiles/cmTC_ef913.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ef913.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ef913
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef913.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=png_create_read_struct -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef913.dir/CheckFunctionExists.c.o  -o cmTC_ef913 /usr/local/lib/libpng.dylib /usr/lib/libz.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_93ea8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_93ea8.dir/build.make CMakeFiles/cmTC_93ea8.dir/build
+Building C object CMakeFiles/cmTC_93ea8.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=png_create_read_struct -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_93ea8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93ea8
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93ea8.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=png_create_read_struct -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93ea8.dir/CheckFunctionExists.c.o  -o cmTC_93ea8 /usr/local/lib/libpng.dylib /usr/lib/libz.dylib 
 
 
 Determining if the function jpeg_read_header exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ca8a/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ca8a.dir/build.make CMakeFiles/cmTC_9ca8a.dir/build
-Building C object CMakeFiles/cmTC_9ca8a.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9ca8a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9ca8a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca8a.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=jpeg_read_header -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ca8a.dir/CheckFunctionExists.c.o  -o cmTC_9ca8a /usr/local/lib/libjpeg.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_6a0cd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6a0cd.dir/build.make CMakeFiles/cmTC_6a0cd.dir/build
+Building C object CMakeFiles/cmTC_6a0cd.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=jpeg_read_header -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6a0cd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a0cd
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a0cd.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=jpeg_read_header -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6a0cd.dir/CheckFunctionExists.c.o  -o cmTC_6a0cd /usr/local/lib/libjpeg.dylib 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9cf5f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9cf5f.dir/build.make CMakeFiles/cmTC_9cf5f.dir/build
-Building C object CMakeFiles/cmTC_9cf5f.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9cf5f.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9cf5f
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cf5f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9cf5f.dir/CheckIncludeFile.c.o  -o cmTC_9cf5f 
+Run Build Command:"/usr/bin/make" "cmTC_385a3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_385a3.dir/build.make CMakeFiles/cmTC_385a3.dir/build
+Building C object CMakeFiles/cmTC_385a3.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_385a3.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_385a3
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_385a3.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_385a3.dir/CheckIncludeFile.c.o  -o cmTC_385a3 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_896e6/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_896e6.dir/build.make CMakeFiles/cmTC_896e6.dir/build
-Building C object CMakeFiles/cmTC_896e6.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_896e6.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_896e6
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_896e6.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_896e6.dir/CheckIncludeFile.c.o  -o cmTC_896e6 
+Run Build Command:"/usr/bin/make" "cmTC_a06a5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a06a5.dir/build.make CMakeFiles/cmTC_a06a5.dir/build
+Building C object CMakeFiles/cmTC_a06a5.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a06a5.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a06a5
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a06a5.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a06a5.dir/CheckIncludeFile.c.o  -o cmTC_a06a5 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48c2c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48c2c.dir/build.make CMakeFiles/cmTC_48c2c.dir/build
-Building C object CMakeFiles/cmTC_48c2c.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_48c2c.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_48c2c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c2c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48c2c.dir/CheckIncludeFile.c.o  -o cmTC_48c2c 
+Run Build Command:"/usr/bin/make" "cmTC_b17a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b17a6.dir/build.make CMakeFiles/cmTC_b17a6.dir/build
+Building C object CMakeFiles/cmTC_b17a6.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b17a6.dir/CheckIncludeFile.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b17a6
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b17a6.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b17a6.dir/CheckIncludeFile.c.o  -o cmTC_b17a6 
 
 
 Determining size of void* passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41f8c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41f8c.dir/build.make CMakeFiles/cmTC_41f8c.dir/build
-Building C object CMakeFiles/cmTC_41f8c.dir/SIZE_OF_VOID_PTR.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_41f8c.dir/SIZE_OF_VOID_PTR.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
-Linking C executable cmTC_41f8c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41f8c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41f8c.dir/SIZE_OF_VOID_PTR.c.o  -o cmTC_41f8c /usr/local/lib/libjpeg.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_796d2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_796d2.dir/build.make CMakeFiles/cmTC_796d2.dir/build
+Building C object CMakeFiles/cmTC_796d2.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_796d2.dir/SIZE_OF_VOID_PTR.c.o   -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTC_796d2
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796d2.dir/link.txt --verbose=1
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_796d2.dir/SIZE_OF_VOID_PTR.c.o  -o cmTC_796d2 /usr/local/lib/libjpeg.dylib 
 
 
 Determining if the function cblas_ddot exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ac566/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac566.dir/build.make CMakeFiles/cmTC_ac566.dir/build
-Building C object CMakeFiles/cmTC_ac566.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ac566.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ac566
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac566.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac566.dir/CheckFunctionExists.c.o  -o cmTC_ac566 /usr/lib/libcblas.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_e350b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e350b.dir/build.make CMakeFiles/cmTC_e350b.dir/build
+Building C object CMakeFiles/cmTC_e350b.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=cblas_ddot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e350b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e350b
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e350b.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=cblas_ddot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e350b.dir/CheckFunctionExists.c.o  -o cmTC_e350b /usr/lib/libcblas.dylib 
 
 
 Determining if the function sgesv exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e74de/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e74de.dir/build.make CMakeFiles/cmTC_e74de.dir/build
-Building C object CMakeFiles/cmTC_e74de.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e74de.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e74de
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e74de.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e74de.dir/CheckFunctionExists.c.o  -o cmTC_e74de /usr/lib/liblapack.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_62c0c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62c0c.dir/build.make CMakeFiles/cmTC_62c0c.dir/build
+Building C object CMakeFiles/cmTC_62c0c.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=sgesv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_62c0c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62c0c
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c0c.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=sgesv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62c0c.dir/CheckFunctionExists.c.o  -o cmTC_62c0c /usr/lib/liblapack.dylib 
 
 
 Determining if the function sgesv_ exists passed with the following output:
 Change Dir: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a4ac/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a4ac.dir/build.make CMakeFiles/cmTC_3a4ac.dir/build
-Building C object CMakeFiles/cmTC_3a4ac.dir/CheckFunctionExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3a4ac.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3a4ac
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a4ac.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a4ac.dir/CheckFunctionExists.c.o  -o cmTC_3a4ac /usr/lib/liblapack.dylib 
+Run Build Command:"/usr/bin/make" "cmTC_cbe87/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cbe87.dir/build.make CMakeFiles/cmTC_cbe87.dir/build
+Building C object CMakeFiles/cmTC_cbe87.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=sgesv_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_cbe87.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cbe87
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbe87.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=sgesv_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cbe87.dir/CheckFunctionExists.c.o  -o cmTC_cbe87 /usr/lib/liblapack.dylib 
 
 

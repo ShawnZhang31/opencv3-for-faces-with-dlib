@@ -60,15 +60,15 @@ include CMakeFiles/cpp11_test.dir/flags.make
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: CMakeFiles/cpp11_test.dir/flags.make
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/cpp11_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o -c /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
 
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i: cmake_force
 	@echo "Preprocessing CXX source to CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp > CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp > CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i
 
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s
 
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o.requires:
 

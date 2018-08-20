@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named webcamStabilizedFLD
+
+# Build rule for target.
+webcamStabilizedFLD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 webcamStabilizedFLD
+.PHONY : webcamStabilizedFLD
+
+# fast build rule for target.
+webcamStabilizedFLD/fast:
+	$(MAKE) -f CMakeFiles/webcamStabilizedFLD.dir/build.make CMakeFiles/webcamStabilizedFLD.dir/build
+.PHONY : webcamStabilizedFLD/fast
+
+#=============================================================================
+# Target rules for targets named fastWebcamFLD
+
+# Build rule for target.
+fastWebcamFLD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fastWebcamFLD
+.PHONY : fastWebcamFLD
+
+# fast build rule for target.
+fastWebcamFLD/fast:
+	$(MAKE) -f CMakeFiles/fastWebcamFLD.dir/build.make CMakeFiles/fastWebcamFLD.dir/build
+.PHONY : fastWebcamFLD/fast
+
+#=============================================================================
 # Target rules for targets named FacialLandmarkDetector
 
 # Build rule for target.
@@ -163,6 +189,60 @@ FacialLandmarkDetector.cpp.s:
 	$(MAKE) -f CMakeFiles/FacialLandmarkDetector.dir/build.make CMakeFiles/FacialLandmarkDetector.dir/FacialLandmarkDetector.cpp.s
 .PHONY : FacialLandmarkDetector.cpp.s
 
+fastWebcamFLD.o: fastWebcamFLD.cpp.o
+
+.PHONY : fastWebcamFLD.o
+
+# target to build an object file
+fastWebcamFLD.cpp.o:
+	$(MAKE) -f CMakeFiles/fastWebcamFLD.dir/build.make CMakeFiles/fastWebcamFLD.dir/fastWebcamFLD.cpp.o
+.PHONY : fastWebcamFLD.cpp.o
+
+fastWebcamFLD.i: fastWebcamFLD.cpp.i
+
+.PHONY : fastWebcamFLD.i
+
+# target to preprocess a source file
+fastWebcamFLD.cpp.i:
+	$(MAKE) -f CMakeFiles/fastWebcamFLD.dir/build.make CMakeFiles/fastWebcamFLD.dir/fastWebcamFLD.cpp.i
+.PHONY : fastWebcamFLD.cpp.i
+
+fastWebcamFLD.s: fastWebcamFLD.cpp.s
+
+.PHONY : fastWebcamFLD.s
+
+# target to generate assembly for a file
+fastWebcamFLD.cpp.s:
+	$(MAKE) -f CMakeFiles/fastWebcamFLD.dir/build.make CMakeFiles/fastWebcamFLD.dir/fastWebcamFLD.cpp.s
+.PHONY : fastWebcamFLD.cpp.s
+
+webcamStabilizedFLD.o: webcamStabilizedFLD.cpp.o
+
+.PHONY : webcamStabilizedFLD.o
+
+# target to build an object file
+webcamStabilizedFLD.cpp.o:
+	$(MAKE) -f CMakeFiles/webcamStabilizedFLD.dir/build.make CMakeFiles/webcamStabilizedFLD.dir/webcamStabilizedFLD.cpp.o
+.PHONY : webcamStabilizedFLD.cpp.o
+
+webcamStabilizedFLD.i: webcamStabilizedFLD.cpp.i
+
+.PHONY : webcamStabilizedFLD.i
+
+# target to preprocess a source file
+webcamStabilizedFLD.cpp.i:
+	$(MAKE) -f CMakeFiles/webcamStabilizedFLD.dir/build.make CMakeFiles/webcamStabilizedFLD.dir/webcamStabilizedFLD.cpp.i
+.PHONY : webcamStabilizedFLD.cpp.i
+
+webcamStabilizedFLD.s: webcamStabilizedFLD.cpp.s
+
+.PHONY : webcamStabilizedFLD.s
+
+# target to generate assembly for a file
+webcamStabilizedFLD.cpp.s:
+	$(MAKE) -f CMakeFiles/webcamStabilizedFLD.dir/build.make CMakeFiles/webcamStabilizedFLD.dir/webcamStabilizedFLD.cpp.s
+.PHONY : webcamStabilizedFLD.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -171,11 +251,19 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... webcamStabilizedFLD"
+	@echo "... fastWebcamFLD"
 	@echo "... FacialLandmarkDetector"
 	@echo "... dlib"
 	@echo "... FacialLandmarkDetector.o"
 	@echo "... FacialLandmarkDetector.i"
 	@echo "... FacialLandmarkDetector.s"
+	@echo "... fastWebcamFLD.o"
+	@echo "... fastWebcamFLD.i"
+	@echo "... fastWebcamFLD.s"
+	@echo "... webcamStabilizedFLD.o"
+	@echo "... webcamStabilizedFLD.i"
+	@echo "... webcamStabilizedFLD.s"
 .PHONY : help
 
 
