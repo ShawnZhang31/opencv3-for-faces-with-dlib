@@ -1,0 +1,3 @@
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/cpp11_test_build/CMakeFiles/rebuild_cache.dir
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/cpp11_test_build/CMakeFiles/edit_cache.dir
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/classes03/cpp/build/dlib_build/cpp11_test_build/CMakeFiles/cpp11_test.dir

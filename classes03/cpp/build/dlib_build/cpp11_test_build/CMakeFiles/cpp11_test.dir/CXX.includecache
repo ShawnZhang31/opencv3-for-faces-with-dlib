@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangxiaomin/Works/A05-Developments/Coding/OpenCV/CV4Faces/common/dlib/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
+memory
+-
+iostream
+-
+
