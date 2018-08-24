@@ -129,8 +129,12 @@ int main(void)
         // 转为灰度图像
         cv::cvtColor(im, imGray, cv::COLOR_BGR2GRAY);
 
+        
+        long ct1= cv::getTickCount();
 
         cv::resize(im, imSmall, cv::Size(), 1.0/RESIZE_SCALE, 1.0/RESIZE_SCALE);
+        long ct2 = cv::getTickCount();
+        std::cout << "time:"<<(double)(ct2-ct1)/cv::getTickFrequency() << std::endl;
 
         // 将图片从opencv格式更改为dlib格式
         dlib::cv_image<bgr_pixel> cimSmall(imSmall);
@@ -191,7 +195,7 @@ int main(void)
             for(int k=0;k<shape.num_parts();k++)
             {
                 double n= norm(pointsDetectedPrev[k]-pointsDetectedCur[k]);
-                double alpha = exp(-n*n/(sigma*1.0));
+                double alpha = exp(-n*n/(sigma*sigma));
                 std::cout<<"sigma="<<sigma<<std::endl;
                 std::cout<<"alpha="<<alpha<<std::endl;
                 points[k]=(1-alpha)*pointsDetectedCur[k]+alpha*points[k];
