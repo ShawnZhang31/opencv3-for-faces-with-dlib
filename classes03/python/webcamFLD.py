@@ -86,4 +86,3 @@ while(True):
 # 退出释放内存
 cap.release()
 cv2.destroyAllWindows()
-
