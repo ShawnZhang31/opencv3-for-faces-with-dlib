@@ -1,38 +1,45 @@
+#!/usr/bin/python
+# Copyright 2017 BIG VISION LLC ALL RIGHTS RESERVED
+#
+# This code is made available to the students of
+# the online course titled "Computer Vision for Faces"
+# by Satya Mallick for personal non-commercial use.
+#
+# Sharing this code is strictly prohibited without written
+# permission from Big Vision LLC.
+#
+# For licensing and other inquiries, please email
+# spmallick@bigvisionllc.com
+#
+
 import cv2
 import numpy as np
 
+
 def drawPolyline(im, landmarks, start, end, isClosed=False):
-    """ 根据检测到关键特征点来绘制特征点连线
-    Args:
-        im: 绘制的图片
-        landmark: 关键特征点
-        start: 起始位置的点的索引
-        end: 结束位置的点的索引
-        isClosed: 连线是否封闭，默认是封闭的
-    """
-    points=[]
+  points = []
+  for i in range(start, end+1):
+    point = [landmarks.part(i).x, landmarks.part(i).y]
+    points.append(point)
 
-    for i in range(start, end+1):
-        point=[landmarks.part(i).x, landmarks.part(i).y]
-        points.append(point)
-        cv2.circle(im,(point[0],point[1]),3,color=(255,0,255),thickness=2,lineType=cv2.LINE_4)
-    
-    points=np.array(points, dtype=np.int32)
-    cv2.polylines(im,[points], isClosed, (255,200,0), thickness=2, lineType=cv2.LINE_AA)
+  points = np.array(points, dtype=np.int32)
+  cv2.polylines(im, [points], isClosed, (255, 200, 0), thickness=2, lineType=cv2.LINE_8)
 
+# Use this function for 68-points facial landmark detector model
 def renderFace(im, landmarks):
-    """ 根据脸部关键特征点绘制特征线
-    Args:
-        im: 绘制的图片
-        landmarks: 关键特征点l列表
-    """
-    # assert(landmarks.num_parts ==68)    #判断是否是68个点
-    drawPolyline(im, landmarks, 0, 16)           # 线板
-    drawPolyline(im, landmarks, 17, 21)          # 左眉毛
-    drawPolyline(im, landmarks, 22, 26)          # 右眉毛
-    drawPolyline(im, landmarks, 27, 30)          # 鼻梁
-    drawPolyline(im, landmarks, 30, 35, True)    # 鼻尖
-    drawPolyline(im, landmarks, 36, 41, True)    # 左眼眶
-    drawPolyline(im, landmarks, 42, 47, True)    # 右眼眶
-    drawPolyline(im, landmarks, 48, 59, True)    # 外嘴唇
-    drawPolyline(im, landmarks, 60, 67, True)    # 右嘴唇
+    assert(landmarks.num_parts == 68)
+    drawPolyline(im, landmarks, 0, 16)           # Jaw line
+    drawPolyline(im, landmarks, 17, 21)          # Left eyebrow
+    drawPolyline(im, landmarks, 22, 26)          # Right eyebrow
+    drawPolyline(im, landmarks, 27, 30)          # Nose bridge
+    drawPolyline(im, landmarks, 30, 35, True)    # Lower nose
+    drawPolyline(im, landmarks, 36, 41, True)    # Left eye
+    drawPolyline(im, landmarks, 42, 47, True)    # Right Eye
+    drawPolyline(im, landmarks, 48, 59, True)    # Outer lip
+    drawPolyline(im, landmarks, 60, 67, True)    # Inner lip
+
+# Use this function for any model other than
+# 68 points facial_landmark detector model
+def renderFace2(im, landmarks, color=(0, 255, 0), radius=3):
+  for p in landmarks.parts():
+    cv2.circle(im, (p.x, p.y), radius, color, -1)
