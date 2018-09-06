@@ -38,3 +38,4 @@ else:
     print("请检查路径:\n")
     print("train:{}".format(trainingXmlPath))
     print("test:{}".format(testingXmlPath))
+    
