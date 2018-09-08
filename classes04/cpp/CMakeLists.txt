@@ -37,3 +37,4 @@ ENDMACRO()
 
 add_example(alphaBlend)
 add_example(warpTriangle)
+add_example(delaunay)
