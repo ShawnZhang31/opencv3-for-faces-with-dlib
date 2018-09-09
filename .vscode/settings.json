@@ -25,7 +25,18 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp",
         "utility": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "__bit_reference": "cpp",
+        "forward_list": "cpp",
+        "type_traits": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp",
+        "cstddef": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "stdexcept": "cpp",
+        "typeinfo": "cpp"
     },
     "git.ignoreLimitWarning": true,
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
