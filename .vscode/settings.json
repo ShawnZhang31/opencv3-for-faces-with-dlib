@@ -36,7 +36,8 @@
         "exception": "cpp",
         "new": "cpp",
         "stdexcept": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "complex": "cpp"
     },
     "git.ignoreLimitWarning": true,
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
