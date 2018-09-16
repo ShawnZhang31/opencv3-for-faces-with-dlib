@@ -191,6 +191,8 @@ void warpTriangle(cv::Mat &imgIn, cv::Mat &imgOut, std::vector<cv::Point2f> tin,
     cv::multiply(imgOut(rect2), cv::Scalar(1.0, 1.0, 1.0) - mask, imgOut(rect2));
 
     imgOut(rect2) = imgOut(rect2) + warpImage;
+    // cv::imshow("imgOut", imgOut);
+    // cv::waitKey(100);
 }
 
 /**

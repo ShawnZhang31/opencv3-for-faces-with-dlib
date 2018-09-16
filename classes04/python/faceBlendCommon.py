@@ -329,10 +329,6 @@ def warpTriangle(img1, img2, t1, t2):
     img2[r2[1]:r2[1]+r2[3], r2[0]:r2[0]+r2[2]] = img2[r2[1]:r2[1]+r2[3], r2[0]:r2[0]+r2[2]] * ((1.0, 1.0, 1.0) - mask)
     img2[r2[1]:r2[1]+r2[3], r2[0]:r2[0]+r2[2]] = img2[r2[1]:r2[1]+r2[3], r2[0]:r2[0]+r2[2]] + img2Rect
 
-    cv2.imshow("img1", img1)
-    cv2.imshow("img2", img2)
-    cv2.waitKey(30)
-
 def applyAffineTransform(src, srcTri, dstTri, size):
     """
     对图像的三角应用变换
