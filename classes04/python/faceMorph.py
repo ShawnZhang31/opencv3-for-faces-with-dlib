@@ -4,8 +4,20 @@ import cv2
 import dlib
 import numpy as np
 
-def onTrackBarChange(value):
-    print("value:{}".format(value))
+# 给lamda调取用
+def morphImages(alpha, imgNorm1, postions1, imgNorm2, postions2, dt):
+    pointsMorph = (1.0-alpha)*points1 + alpha*points2
+
+    imOut1 = fbc.warpImage(imgNorm1, points1, pointsMorph, dt)
+    imOut2 = fbc.warpImage(imgNorm2, points2, pointsMorph, dt)
+
+    imMorph = (1-alpha)*imOut1 + alpha*imOut2
+
+    imgShow=np.zeros((480,480*3,3),dtype=float)
+    imgShow=cv2.hconcat([imgNorm1, imgNorm2, imMorph])
+
+    cv2.imshow(winName, imgShow)
+
 
 if __name__ == "__main__":
     # 加载识别器
@@ -48,38 +60,14 @@ if __name__ == "__main__":
     winName = "Face Morphing"
     
     cv2.namedWindow(winName,cv2.WINDOW_AUTOSIZE)
-    cv2.createTrackbar("alpha",winName,0,10,onTrackBarChange)
-
-    while(1):
+    #  回调函数使用lambda语法
+    cv2.createTrackbar("alpha",winName,0,10,lambda v:morphImages(v/10.0, imgNorm1, points1, imgNorm2, points2, dt))
     
     alpha = cv2.getTrackbarPos("alpha", winName)
 
-    print("alpha:{}".format(alpha))
-    
-
-    pointsMorph = (1.0-alpha)*points1 + alpha*points2
-
-    imOut1 = fbc.warpImage(imgNorm1, points1, pointsMorph, dt)
-    imOut2 = fbc.warpImage(imgNorm2, points2, pointsMorph, dt)
-
-    imMorph = (1-alpha)*imOut1 + alpha*imOut2
-
-    imgShow=np.zeros((480,480*3,3),dtype=float)
-    imgShow=cv2.hconcat([imOut1, imOut2, imMorph])
-
-    cv2.imshow(winName, imgShow)
-
-    # TODO:添加TrackerBar回调事件的处理
-    
-
-    
-
+    morphImages(alpha/10.0, imgNorm1, points1, imgNorm2, points2, dt)
 
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
-
-
-    print(imgNorm1.shape)
 
 
