@@ -16,7 +16,7 @@
  * @param color 颜色
  * @param radius 半径
  */
-void renderFacePoints(cv::Mat &img, const std::vector<cv::Point2f> &points, cv::Scalar color, int radius=3)
+void renderFacePoints(cv::Mat &img, const std::vector<cv::Point> &points, cv::Scalar color, int radius=3)
 {
     for(int i=0;i<points.size();i++)
     {
@@ -35,7 +35,7 @@ void renderFacePoints(cv::Mat &img, const std::vector<cv::Point2f> &points, cv::
  */
 void drawPolyline(cv::Mat &img, const dlib::full_object_detection &landmark, const int start, const int end, bool isClosed=false)
 {
-    std::vector<cv::Point2f> points;
+    std::vector<cv::Point> points;
     cv::Point point;
     for(int i=start;i<=end;i++)
     {

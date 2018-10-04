@@ -7,6 +7,8 @@ PROJECT(classes04)
 #############  基本库配置  ############
 find_package( OpenCV REQUIRED )
 
+add_definitions(-std=c++11)
+
 include_directories( ${OpenCV_INCLUDE_DIRS})
 include(../../common/dlib/dlib/cmake)
 
@@ -24,3 +26,4 @@ add_example(faceAveraging)
 add_example(faceMorph)
 add_example(blinkDetect)
 add_example(bugeyeVideo)
+add_example(webcamHeadPose)
