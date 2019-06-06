@@ -65,8 +65,8 @@ if __name__ == "__main__":
         sys.exit(0)
     
     # 定义输出图像的尺寸
-    w = 600
-    h = 600
+    w = 300
+    h = 300
 
     boundaryPts = fbc.getEightBoundaryPoints(h, w)
     
@@ -89,6 +89,8 @@ if __name__ == "__main__":
         # print(points)
 
         img, points = fbc.normalizeImagesAndLandmarks((h,w),img,points)
+
+        cv2.imshow("{}".format(i), img)
 
         pointsAvg = pointsAvg + (points/(1.0*numImages))
 
@@ -113,7 +115,6 @@ if __name__ == "__main__":
         output = output + imWarp
     
     output = output/(1.0*numImages)
-
     cv2.imshow("Result", output)
     cv2.waitKey(0)
     

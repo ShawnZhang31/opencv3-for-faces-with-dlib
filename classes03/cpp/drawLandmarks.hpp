@@ -24,7 +24,7 @@ void drawLandmarks(cv::Mat &img, const dlib::full_object_detection &landmarks)
     {
         std::cout<<"检测到关键点数量为:"<<landmarks.num_parts()<<std::endl;
         
-        cv::circle(img, cv::Point(landmarks.part(i).x(), landmarks.part(i).y()), 3, cv::Scalar(255,0.255));
+        cv::circle(img, cv::Point(landmarks.part(i).x(), landmarks.part(i).y()), 3, cv::Scalar(255,0, 255));
     }
 }
 

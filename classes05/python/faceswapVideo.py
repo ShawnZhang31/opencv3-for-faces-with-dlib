@@ -9,12 +9,11 @@ RESIZE_HEIGHT = 360
 
 if __name__ == '__main__' :
 
-  # Load face detection and pose estimation models.
   modelPath = "../../common/resources/shape_predictor_68_face_landmarks.dat"
   detector = dlib.get_frontal_face_detector()
   predictor = dlib.shape_predictor(modelPath)
 
-  # Processing input file
+  # 合成图片
   filename1 = '../data/images/obama.jpg'
 
   # Read the image and resize it
@@ -50,7 +49,7 @@ if __name__ == '__main__' :
   print("processed input image")
   
   # process input from webcam or video file
-  cap = cv2.VideoCapture("../data/videos/introduce.mp4")
+  cap = cv2.VideoCapture(0)
 
   # Some variables for tracking time
   count = 0
@@ -170,7 +169,7 @@ if __name__ == '__main__' :
       if cv2.waitKey(1) & 0xFF == 27:
         break
       
-      count += 1;
+      count += 1
       if count == 10:
         count = 0
 
